@@ -1,8 +1,20 @@
 # Rumble Cloud ssh commands and setup [^1]
 
 The following is a supplemental document to Rumble Cloud
-*SSH command line tools* [^2] with the intent simplify the
-ssh access to an instance with a load balancer configuration.
+*SSH command line tools* [^2] with the intent to simplify the
+ssh access to an instance with a load balancer configuration
+for a **public** network.
+
+## Mininum Requirements
+
+Rumble Cloud services [^4]
+
+1. Starter Pack
+2. **Two** Floatiing IP Address
+
+The **Starter Pack** includes one Floating IP Address, however, to provide
+a public service you need a mininum of two addresses. Therefore, at a minium
+it is recommended to purchase the **Stqrter Pack** and **1 Floating IP Address**
 
 ## Navigate to Rumble Cloud project
 
@@ -95,3 +107,4 @@ Consulting services are available from [Glen CARL](http://www.buonvia.com/mobile
 [^1]: This dccument only supports Linux based operating systems, such as MacOS and ubuntu.
 [^2]: Ref [Rumble SSH Guide](https://docs.rumble.cloud/guides/tools/SSH.html)
 [^3]: Ref [Rumble SSH Key Pair(https://docs.rumble.cloud/how_to/tools/add_an_SSH_key_pair.html)
+[^4]: Ref [Rumble Cloud Service Pricing](https://www.rumble.cloud/pricing/) to get access
