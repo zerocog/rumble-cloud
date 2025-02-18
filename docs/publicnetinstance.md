@@ -10,4 +10,4 @@ is published can be seen by anyone with INTERNET access.
 
 Complete the initial instructions given for the Rumble Cloud sshkeys. [^1]
 
-[^1]: [Rumble Cloud ssh commands and setup](file:///sshkeyspem.md)
+[^1]: [Rumble Cloud ssh commands and setup](file://sshkeyspem.md)
