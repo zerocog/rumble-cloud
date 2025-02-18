@@ -16,12 +16,16 @@ The **Starter Pack** includes one Floating IP Address, however, to provide
 a public service you need a mininum of two addresses. Therefore, at a minium
 it is recommended to purchase the **Stqrter Pack** and **1 Floating IP Address**
 
+Follow the instructions at
+[Rumble Get Started](https://docs.rumble.cloud/get_started/index.html)
+
 ## Navigate to Rumble Cloud project
 
-1. [portal.rumble.cloud](https://portal.rumble.cloud)
-2. Select `open` for your desired organization
-3. LHS, open projects and Select desired project
-4. Select `Open Cloud Project`
+1. [Manage cloud projects](https://docs.rumble.cloud/guides/account/manage_cloud_projects.html)
+2. [portal.rumble.cloud](https://portal.rumble.cloud)
+3. Select `open` for your desired organization
+4. LHS, open projects and Select desired project
+5. Select `Open Cloud Project`
 
 ## Key Pairs [^3]
 
