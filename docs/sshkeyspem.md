@@ -104,7 +104,7 @@ Rumble Cloud documentation provides many guides. Recommend learning
 
 Consulting services are available from [Glen CARL](http://www.buonvia.com/mobile/BVabout/)
 
-[^1]: This dccument only supports Linux based operating systems, such as MacOS and ubuntu.
+[^1]: This document only supports Linux based operating systems, such as MacOS and ubuntu.
 [^2]: Ref [Rumble SSH Guide](https://docs.rumble.cloud/guides/tools/SSH.html)
 [^3]: Ref [Rumble SSH Key Pair(https://docs.rumble.cloud/how_to/tools/add_an_SSH_key_pair.html)
 [^4]: Ref [Rumble Cloud Service Pricing](https://www.rumble.cloud/pricing/) to get access
