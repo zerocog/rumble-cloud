@@ -76,8 +76,8 @@ ssh-add myexample.pem
 
 ### Associate PEM with instance [^3]
 
-When you create a virtual machine instance, you will be asked to provide a key pair.
-It is recommended to choose one of your pem files.
+When you [create a virtual machine instance](./publicnetinstance.md),
+you will be asked to provide a key pair. It is recommended to choose one of your pem files.
 
 To find the pem or other keypair name associated with your instance,
 
@@ -97,10 +97,10 @@ where **portnum** is important relation with your load balancer configuration.
 1. Select `Load Balancers --> ID/Name`
 2. View `Port` for your ssh-server
 
-## More help 
+## More help
 
-Rumble Cloud documentation provides many guides. Recommend learning
-[How To Create Public Network](https://docs.rumble.cloud/how_to/compute/create_a_vm_on_a_public_network.html)
+Rumble Cloud documentation provides many guides. Recommend learning more at
+[Rumble How To](https://docs.rumble.cloud/how_to/index.html)
 
 Consulting services are available from [Glen CARL](http://www.buonvia.com/mobile/BVabout/)
 
