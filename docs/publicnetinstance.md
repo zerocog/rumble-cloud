@@ -26,8 +26,7 @@ TCP PROTOCOL
 6. Select Protocol `SSH` to specify common SSH settings (TCP on port 22)
 7. Select Direction `Ingress`
 8. Ether Type `IPv4` unless you want IPv6
-9. 
-Create the rule.
+9. Create the rule.
 
 ## Create Virtual Machine Instance [^1]
 
