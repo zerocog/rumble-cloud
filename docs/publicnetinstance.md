@@ -26,7 +26,7 @@ TCP PROTOCOL
 6. Select Protocol `SSH` to specify common SSH settings (TCP on port 22)
 7. Select Direction `Ingress`
 8. Ether Type `IPv4` unless you want IPv6
-9. Create the rule.
+9. Create the rule
 
 ## Create Virtual Machine Instance [^1]
 
@@ -62,7 +62,14 @@ Allows for instance access from your local machine over the INTERNET
 [Using Load Balancers to provide Port Based Destination NAT](./lbport.pdf) PDF
 
 1. You need ssh/tcp access for shell access, specify your own port for tcp 22
-2. You need 80/443 http access for a web server
+2. Select `Network->Load Balancers->Create Listener`
+3. Specify portnum for TCP
+4. Name: a name the that helps you know what port your are accessing
+5. Description: any helpful details
+6. Protocol: `TCP`
+7. Port: `11000` or some large number is wise
+8. Connection Limit: `-1` is unlimited. Pick a limit
+9. You need 80/443 http access for a web server
 
 ## Access to Virtual Machine
 
