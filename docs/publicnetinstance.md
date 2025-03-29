@@ -31,13 +31,47 @@ Create the rule.
 
 ## Create Virtual Machine Instance [^1]
 
-1. Select `Compute -> Instances -> Create Instance`
-2. 
+### Basic Config
 
+1. Select `Compute -> Instances -> Create Instance`, goes to `(1) Basic Config`
+2. Name: Enter a name to identify the instance
+3. Availability: Select `us-east-2` likely the availability zone you are on
+4. Specification: Select `Compute Optimized -> c2a.large`
+5. Start Source: Select `Image`
+6. Operating System: `Ubuntu-24.04` is the newest as of March 2025
+7. System Disk: Select `Flash_Premium` set system disk size 10+ GiB
+8. System Disk: Check `Deleted with the instance`
+
+### Network Config
+
+Allows for instance access from your local machine over the INTERNET
+
+1. Select `(2) Network Config`
+2. Select the `Public Networks` tab, then select `PublicEphemeral` for networks
+3. Subnets: Select `Automatically Assigned Address` for the network
+4. Security Group: Select security group you created in TCP PROTOCOL
+
+### System Config
+
+1. Select `(3) System Config`
+2. Login: Select  `Keypair` and choose pair that has been created before
+3. Review: Select `Confirm Config` virtual machine summary for review
+4. Review: Select `Confirm` and the instance is created and activated
 
 ## Load Balancers
 
 [Using Load Balancers to provide Port Based Destination NAT](./lbport.pdf) PDF
+
+1. You need ssh/tcp access for shell access, specify your own port for tcp 22
+2. You need 80/443 http access for a web server
+
+## Access to Virtual Machine
+
+1. ssh -i /pathto/yourcreated.pem -p PORTNUM ubuntu@<FIXED_IP_ADDRESS_FROM_INSTANCE>
+2. where the IP is your Load Balancer's `Floating IP`
+3. where **PORTNUM** is important relation with your load balancer configuration.
+4. Select `Load Balancers --> ID/Name`
+5. View `Port` for your ssh-server
 
 ## More help
 
