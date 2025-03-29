@@ -16,12 +16,16 @@ The **Starter Pack** includes one Floating IP Address, however, to provide
 a public service you need a mininum of two addresses. Therefore, at a minium
 it is recommended to purchase the **Stqrter Pack** and **1 Floating IP Address**
 
+Follow the instructions at
+[Rumble Get Started](https://docs.rumble.cloud/get_started/index.html)
+
 ## Navigate to Rumble Cloud project
 
-1. [portal.rumble.cloud](https://portal.rumble.cloud)
-2. Select `open` for your desired organization
-3. LHS, open projects and Select desired project
-4. Select `Open Cloud Project`
+1. [Manage cloud projects](https://docs.rumble.cloud/guides/account/manage_cloud_projects.html)
+2. [portal.rumble.cloud](https://portal.rumble.cloud)
+3. Select `open` for your desired organization
+4. LHS, open projects and Select desired project
+5. Select `Open Cloud Project`
 
 ## Key Pairs [^3]
 
@@ -76,8 +80,8 @@ ssh-add myexample.pem
 
 ### Associate PEM with instance [^3]
 
-When you create a virtual machine instance, you will be asked to provide a key pair.
-It is recommended to choose one of your pem files.
+When you [create a virtual machine instance](./publicnetinstance.md),
+you will be asked to provide a key pair. It is recommended to choose one of your pem files.
 
 To find the pem or other keypair name associated with your instance,
 
@@ -97,14 +101,14 @@ where **portnum** is important relation with your load balancer configuration.
 1. Select `Load Balancers --> ID/Name`
 2. View `Port` for your ssh-server
 
-## More help 
+## More help
 
-Rumble Cloud documentation provides many guides. Recommend learning
-[How To Create Public Network](https://docs.rumble.cloud/how_to/compute/create_a_vm_on_a_public_network.html)
+Rumble Cloud documentation provides many guides. Recommend learning more at
+[Rumble How To](https://docs.rumble.cloud/how_to/index.html)
 
 Consulting services are available from [Glen CARL](http://www.buonvia.com/mobile/BVabout/)
 
-[^1]: This dccument only supports Linux based operating systems, such as MacOS and ubuntu.
+[^1]: This document only supports Linux based operating systems, such as MacOS and ubuntu.
 [^2]: Ref [Rumble SSH Guide](https://docs.rumble.cloud/guides/tools/SSH.html)
 [^3]: Ref [Rumble SSH Key Pair(https://docs.rumble.cloud/how_to/tools/add_an_SSH_key_pair.html)
 [^4]: Ref [Rumble Cloud Service Pricing](https://www.rumble.cloud/pricing/) to get access
